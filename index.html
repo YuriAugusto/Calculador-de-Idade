@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css"> <!--Para usar o comando escreva "link:css"--> 
+    <!--Para criar um style aperte "CTRL" + clique em "style.css"-->
+    <!--Chamada para o CSS externo.-->  
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div> <!--Primeira Div-->
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min='0'>
+            </p>
+            <p>Sexo: <!--Criação de radio's que fazem check-->
+                <input type="radio" name="radsex" id="mas" checked> <!--Cria o radio-->
+                <label for="masc"> Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id='res'> <!--Segunda Div-->
+            Preencha os dados acima para ver o resultado!
+            <!--<img id='foto'> -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Praticando com exercícios.</p>
+    </footer>
+    <script src="script.js">
+        //Chamada para o JavaScript externo.
+    </script>    
+    
+</body>
+</html>

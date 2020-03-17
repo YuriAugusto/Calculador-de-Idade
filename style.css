@@ -1,0 +1,28 @@
+/*Em CSS os comandos são em letras minúsculas.*/
+/*Página de Style que serve para formatar a estrutura do site.*/
+body {
+    background: #9698ffc9;
+    font: normal 17pt Arial;
+    
+}
+header {
+    color: white; /*Cor das letras.*/
+    text-align: center; /*Centraliza o texto.*/
+}
+section { /*Caixa branca dentro do site.*/
+    background: white;
+    border-radius: 10px; /*Borda arredondada.*/
+    padding: 15px; /*Tamanho da caixa.*/
+    width: 500px; /*Largura da caixa.*/
+    margin: auto; /*Centraliza tudo.*/
+    box-shadow: 5px 5px 10px #000000b0; /*Coloca sombra na caixa.*/  
+}
+div#res{
+    text-align: center; /*essa linha serve para centralizar o texto e a img*/
+}
+footer {
+    color: white; /*Cor das letras.*/
+    text-align: center; /*Centraliza o texto.*/
+    font-style: italic;
+}
+
